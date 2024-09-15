@@ -168,11 +168,14 @@ public class Main {
                         //맵 갱신
                         copy(newMap, map);
                   }
-
+                  if(pointSum != 0){
+                        System.out.print(pointSum + " ");
+                  }
+                  pointSum = 0;
 
             }
 
-            System.out.println(pointSum);
+
 
       }
 
